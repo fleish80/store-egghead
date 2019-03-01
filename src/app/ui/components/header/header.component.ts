@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  logo = 'assets/logo.svg';
+  title = 'Store';
+  links = [{
+    label: 'Products',
+    url: '/products'
+  }]
+
   constructor() { }
 
   ngOnInit() {
