@@ -1,4 +1,5 @@
 import { enableProdMode } from '@angular/core';
+import 'zone.js/dist/zone-node';
 
 import { environment } from './environments/environment';
 
